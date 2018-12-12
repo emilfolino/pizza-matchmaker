@@ -50,4 +50,5 @@ input {
     border: none;
     margin-top: 2em;
     font-family: 'Mali', cursive;
+    cursor: pointer;
 }
