@@ -124,8 +124,13 @@
 
         for (let i = 0; i < allNames.length; i++) {
             let currentName = allNames[i];
+            let name = currentName.textContent;
+            const nameEndIndex = currentName.textContent.indexOf(" - ");
+            if (nameEndIndex !== -1) {
+                name = currentName.textContent.slice(0, nameEndIndex);
+            }
 
-            currentName.textContent += " - " + getRandomPizza();
+            currentName.textContent = name + " - " + getRandomPizza();
         }
     });
 
