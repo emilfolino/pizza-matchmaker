@@ -11,6 +11,8 @@ body {
 body {
     font-size: 100%;
     background-image: linear-gradient(#2c3539, #586b73);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #333;
 }
 
@@ -48,4 +50,5 @@ input {
     border: none;
     margin-top: 2em;
     font-family: 'Mali', cursive;
+    cursor: pointer;
 }
